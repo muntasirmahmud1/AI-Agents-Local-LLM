@@ -1,0 +1,5 @@
+# Python utilities used to download the GGUF model and communicate with llama-server.
+# llama.cpp itself is built with CMake and does not install through pip.
+
+huggingface_hub[cli]>=0.34.0
+requests>=2.31.0
