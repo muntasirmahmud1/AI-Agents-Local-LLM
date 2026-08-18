@@ -193,7 +193,7 @@ Check the binaries:
 ls -lh build/bin/
 ```
 
-Important executables include:
+Important executable include:
 
 ```text
 llama-cli
@@ -575,7 +575,7 @@ sudo tegrastats
 
 ---
 
-## 19. Next PANCAM integration stage
+## 19. PANCAM integration stage
 
 After the local server is verified, the PANCAM AI architecture will be developed as:
 
@@ -589,5 +589,3 @@ AI sidebar
     -> llama-server
     -> Qwen3.5-9B
 ```
-
-The GUI Help Agent should remain read-only during the first development phase. Hardware-control tools should be added only later with fixed Python safety checks and explicit user confirmation.
